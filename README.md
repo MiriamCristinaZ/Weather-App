@@ -33,4 +33,4 @@ The Weather Dashboard is an interactive web application that allows users to see
 ## Deployment
 
 The application is available at the following URL:
-<>
+<https://miriamcristinaz.github.io/Weather-App/>
