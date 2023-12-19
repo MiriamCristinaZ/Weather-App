@@ -1,0 +1,122 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e7e7e7;
+  color: #333;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.weather-header {
+  background-color: #1e213a;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.weather-search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.search-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3c47e9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2e39c4;
+}
+
+.history-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #6e707a;
+  color: white;
+  margin-bottom: 5px;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history-btn:hover {
+  background-color: #575962;
+}
+
+.current-weather {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(20% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+#forecast {
+  text-align: center;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .forecast-day {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .forecast-day {
+    width: 100%;
+  }
+}
+.history-container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.history-title {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history-item {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.history-item:hover {
+  background-color: #e1e1e1;
+}
